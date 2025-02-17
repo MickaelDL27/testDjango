@@ -12,13 +12,6 @@ header, footer
     padding: 20px;
 }
 
-main
-{
-    display: flex;
-    justify-content: flex-end;
-    padding: 20px;
-}
-
 article
 {
     background-color: pink;
