@@ -5,7 +5,14 @@ body
     color: black;
 }
 
-header, footer
+header
+{
+    background-color: orange;
+    color: black;
+    padding: 40px;
+}
+
+footer
 {
     background-color: orange;
     color: black;
