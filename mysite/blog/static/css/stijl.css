@@ -19,6 +19,12 @@ footer
     padding: 20px;
 }
 
+main
+{
+    background-color: pink;
+    float: right;
+    padding-right: 300px;
+}
 article
 {
     background-color: pink;
