@@ -19,8 +19,7 @@ footer
 
 div
 {
-    display: flex;
-    flex-direction: column;
+    display: block;
     align-items: flex-end;
     padding: 20px;
     margin-right: 10%;
