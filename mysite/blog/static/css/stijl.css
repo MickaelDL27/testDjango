@@ -12,22 +12,12 @@ header, footer
     padding: 20px;
 }
 
-main
-{
-    display: flex;
-    justify-content: flex-end;
-    padding: 20px;
-}
 article
 {
     background-color: pink;
-    padding: 20px;
     width: 500px;
-    margin-bottom: 40px;
+    margin: 40px;
     border: 3px solid white;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
 }
 
 h2 a
