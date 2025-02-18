@@ -25,3 +25,8 @@ def post_nieuw(request):
     else:
         form = PostForm()
     return render(request, 'blog/post_edit.html', {'form': form})
+
+def delete_post(request, post_id=None):
+    post_to_delete = Post.objects.get(id = post_id)
+    post_to_delete.delete()
+    return render(request, 'blog/post_list.html')
