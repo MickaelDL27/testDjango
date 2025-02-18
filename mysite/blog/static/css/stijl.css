@@ -21,6 +21,7 @@ section
 {
     display: flex;
     flex-direction: column;
+    align-content: flex-end;
     padding: 20px;
     margin-right: 10%;
 }
