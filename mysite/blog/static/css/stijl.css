@@ -42,7 +42,18 @@ section
     font-size: 0.9em;
     color: gray;
 }
-
+.post-form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10%;
+    background-color: pink;
+    padding: 15px;
+    border: 3px solid white;
+    width: 500px;
+    margin-bottom: 40px;
+}
 a
 {
     color: black;
