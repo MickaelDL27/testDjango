@@ -1,6 +1,6 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir='ltr'>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,17 +11,13 @@
     <title></title>
 </head>
 <body>
-    {% extends 'blog/base.html' %}
-    {% block inhoud %}
-    {% for post in posts %}
-    <article class="post">
-        <time class="date">
-            {{ post.published_date }}
-        </time>
-        <h2><a href="">{{ post.title }}</a></h2>
-        <p>{{ post.text|linebreaksbr }}</p>
-    </article>
-    {% endfor %}
-    {% endblock %}
+    <header>
+        <h1>Mijn website</h1>
+    </header>
+    <section>
+        {% block inhoud %}
+        {% endblock %}
+    </section> 
+    <footer></footer>
 </body>
 </html>
