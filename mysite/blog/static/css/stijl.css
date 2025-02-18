@@ -17,9 +17,8 @@ footer
     padding: 20px;
 }
 
-section
+div
 {
-    background-color: pink;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
