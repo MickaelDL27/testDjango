@@ -17,7 +17,7 @@ footer
     padding: 20px;
 }
 
-div
+section
 {
     display: flex;
     flex-direction: column;
