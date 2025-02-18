@@ -39,16 +39,12 @@ div
     color: gray;
 }
 
+a
+{
+    color: black;
+}
+
 h2
 {
     color: orange;
-}
-h2 a
-{
-    text-decoration: none;
-    color: orange;
-}
-h2 a:hover
-{
-    text-decoration: underline;
 }
